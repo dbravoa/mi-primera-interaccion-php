@@ -11,6 +11,7 @@ $empleado1->setNombre("Mario");
 echo $empleado1->getNombre() . " es el nombre del empleado1";
 
 echo "<br>";
+######### Instancia Empleado
 
 $empleado1->setNumeroDocumento("21546587");
 echo $empleado1->getNumeroDocumento();
@@ -21,9 +22,13 @@ echo $empleado1->getSueldo(true);
 
 echo "<br>";
 $empleado1->imprimir();
+echo "<br>";
+echo $empleado1->getTipoDocumento();
 
 echo "<hr>";
-
+########### Instancia Proveedor
 $proveedor = new Proveedor;
 echo "<br>";
 $proveedor->imprimir();
+echo "<br>";
+echo $proveedor->getTipoDocumento();

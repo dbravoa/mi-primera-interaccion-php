@@ -2,6 +2,10 @@
 
 class Proveedor extends Persona
 {
+
+    protected $tipoDocumento = "RUC";
+
+
     public function imprimir()
     {
         # Llamando al funcionamiento que tiene la clase padre

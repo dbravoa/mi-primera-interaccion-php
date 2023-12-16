@@ -1,7 +1,7 @@
 <?php
 class Persona
 {
-    protected $tipoDocumento;
+    protected $tipoDocumento = "DNI";
     protected $numeroDocumento;
     protected $nombre;
     protected $apellidoPaterno;
